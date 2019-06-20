@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FirstTest.Records">
+   <ContentPage.Content>
+        
+        <ListView x:Name="RecordsListView" RowHeight="170" SeparatorColor="White" >
+            <ListView.ItemTemplate>
+                <DataTemplate x:Name="DT1">
+                    <ViewCell >
+                        <Grid  HeightRequest="40" BackgroundColor="#f5f5f5" Margin="0,10,0,10">    
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Frame Grid.Column="0" BackgroundColor="White" HasShadow="false" Margin="20" CornerRadius="0"></Frame>
+                            <Label Grid.Column="1" Text="{Binding Artist}"/>
+                            
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+       
+        
+    </ContentPage.Content>
+</ContentPage>

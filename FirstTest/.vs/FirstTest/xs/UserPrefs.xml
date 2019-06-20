@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{81F8C01E-0FA0-4F8B-91FD-5C9EE643D3C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.FirstTest.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6B54856D-A0B4-451B-AD8D-CFCA473B5DA5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstTest/MainPage.xaml">
+    <Files>
+      <File FileName="FirstTest/MainPage.xaml.cs" Line="18" Column="13" />
+      <File FileName="FirstTest/Records.xaml.cs" />
+      <File FileName="FirstTest/MainPage.xaml" Line="8" Column="1" />
+      <File FileName="FirstTest/MyPage.xaml" Line="15" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstTest" expanded="True">
+            <Node name="FirstTest" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MyPage.xaml" expanded="True" />
+              <Node name="Records.xaml" expanded="True" />
+            </Node>
+            <Node name="FirstTest.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/maticozebek/Projects/FirstTest/FirstTest/MainPage.xaml" relfile="FirstTest/MainPage.xaml" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

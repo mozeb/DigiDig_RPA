@@ -1,0 +1,16 @@
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/Follow.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/Settings.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.csproj.CoreCompileInputs.cache
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.AssemblyInfoInputs.cache
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.AssemblyInfo.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.csprojAssemblyReference.cache
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/Records.xaml.g.cs
+/Users/maticozebek/Projects/FirstTest/FirstTest/bin/Debug/netstandard2.0/FirstTest.deps.json
+/Users/maticozebek/Projects/FirstTest/FirstTest/bin/Debug/netstandard2.0/FirstTest.dll
+/Users/maticozebek/Projects/FirstTest/FirstTest/bin/Debug/netstandard2.0/FirstTest.pdb
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.dll
+/Users/maticozebek/Projects/FirstTest/FirstTest/obj/Debug/netstandard2.0/FirstTest.pdb

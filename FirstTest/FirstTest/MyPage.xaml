@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FirstTest.MyPage">
+    
+    <Grid x:Name="MainGrid" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" RowSpacing="0" BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+         <!-- Logo section -->
+        <Grid Grid.Row="0" BackgroundColor="white" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,35,0,35">
+            <Image Source="Image" HeightRequest="29" />
+        </Grid>
+        
+        <!-- Welcome section -->
+        <Grid Grid.Row="1" VerticalOptions="Center" RowSpacing="0" Padding="20,0,20,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="WELCOME" FontFamily="{StaticResource BoldFont}" FontSize="55" HeightRequest="45" />
+            <Label Grid.Row="1" Text="Matic" FontFamily="{StaticResource NormalFont}" FontSize="30" HeightRequest="28" />
+            <Label Grid.Row="2" />
+            <Label Grid.Row="3" Text="1 collection, 167 records" FontFamily="{StaticResource NormalFont}" FontSize="15" />
+        </Grid>
+        
+         <!-- Content scroll section -->
+        <ScrollView Grid.Row="2">
+            <Grid RowSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="125" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="108" />
+                    <RowDefinition Height="108" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Column="0" Margin="20,0,20,0" ColumnSpacing="0" BackgroundColor="#f2f2f2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition x:Name="QrIconColumn" Width="125" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Column="0" HasShadow="false" CornerRadius="0" BackgroundColor="#df9904" Padding="0" />
+                    <Grid Grid.Column="1" VerticalOptions="Center" RowSpacing="3" Padding="15,0,15,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" FontSize="19" Text="DIGIDIGG SCAN" FontFamily="{StaticResource BoldFont}"  />
+                        <Label Grid.Row="1" FontSize="13" Text="Scan a collection or create code for yourself!" FontFamily="{StaticResource NormalFont}" />
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1" Margin="20,10,20,0">
+                    <Grid VerticalOptions="Center" HorizontalOptions="FillAndExpand" RowSpacing="4 ">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" FontSize="22" Text="Collections" FontFamily="{StaticResource BoldFont}" />
+                        <Frame Grid.Row="1" HasShadow="false" CornerRadius="0" BackgroundColor="Black" HeightRequest="2" Padding="0" />
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2" BackgroundColor="Red" Margin="20,0,20,0">
+                    <Grid ColumnSpacing="0" BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="108" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+                        <Frame Grid.Column="0" Padding="10" BackgroundColor="Black" HasShadow="false" CornerRadius="0" Margin="0">
+                            <Frame HasShadow="false" CornerRadius="0" Margin="-7">
+                                <Image Source="MyCollection" BackgroundColor="White" Margin="-4" />
+                            </Frame>
+                        </Frame>
+                        <Grid Grid.Column="1" Padding="15,0,15,0" VerticalOptions="Start">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="46" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" FontSize="19" Text="MY COLLECTIONS" FontFamily="{StaticResource BoldFont}" />
+                            <Label Grid.Row="1" FontSize="13" Text="Digg around your friends collections!" FontFamily="{StaticResource NormalFont}" />
+                            <Grid Grid.Row="2">
+                                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="65" HeightRequest="22" VerticalOptions="End" HorizontalOptions="Start" BackgroundColor="#c4187d" FontSize="13" Text="ADD NEW" FontFamily="{StaticResource BoldFont}"
+                                    TextColor="White" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3" BackgroundColor="Red" Margin="20,0,20,0">
+                    <Grid ColumnSpacing="0" BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="108" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+                        <Frame Grid.Column="0" Padding="10" BackgroundColor="Black" HasShadow="false" CornerRadius="0" Margin="0">
+                            <Frame HasShadow="false" CornerRadius="0" Margin="-7">
+                                <Image Source="FriendsCollection" BackgroundColor="White" Margin="-4" />
+                            </Frame>
+                
+            ho</Frame>
+                        <Grid Grid.Column="1" Padding="15,0,15,0" VerticalOptions="Start">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="46" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" FontSize="19" Text="YOUR FRIENDS" FontFamily="{StaticResource BoldFont}" />
+                            <Label Grid.Row="1" FontSize="13" Text="Digg around your friends collections!" FontFamily="{StaticResource NormalFont}" />
+                            <Grid Grid.Row="2">
+                                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" WidthRequest="87" HeightRequest="22" VerticalOptions="End" HorizontalOptions="Start" BackgroundColor="#c4187d" FontSize="13" Text="DIGG AROUND " FontFamily="{StaticResource BoldFont}"
+                                    TextColor="White" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </ScrollView>
+
+    </Grid>
+    
+</ContentPage>
